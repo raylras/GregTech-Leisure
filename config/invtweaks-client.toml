@@ -79,6 +79,11 @@
 	[[sorting.containerOverrides]]
 		containerClass = "gripe._90.megacells.menu.MEGAInterfaceMenu"
 		sortRange = ""
+	
+ 	# 在LaserIO界面中整理会导致背包物品清空，将界面添加进黑名单
+	[[sorting.containerOverrides]]
+	containerClass = "com.direwolf20.laserio.client.screens.*Screen"
+	sortRange = ""
 
 	#Categor(y/ies) for sorting
 	#
